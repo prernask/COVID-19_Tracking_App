@@ -5,14 +5,21 @@ for getting data inside app - use api's
           2. data in india along with states
 
 for fetching data from this api's use volley library: for handling & retriving data.
+
 it is open source authebticate api & its updated in every 10 min
+
 added dependency in build.gradle file
+
 manifestfile- internet permission-getting data from net
+
 create void fetchdata() method : to fetch data from third party api and implent into app
-create stribg req. using volley & assign url= "https://corona.lmao.ninja.com"
+
+create string req. using volley & assign url= "https://corona.lmao.ninja.com"
 requested data are in JSON format
+
 inside onResponse method create object of JSONobject class
 set data in textview which is available in JSON format.
+
 
 
 # volley library:
